@@ -1,0 +1,44 @@
+name: fluttertest
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.6
+  cupertino_icons: ^1.0.2
+  smooth_page_indicator: ^1.2.0+3
+  firebase_core: ^2.1.1
+  cloud_firestore: ^4.17.5
+  google_maps_flutter: ^2.2.0
+  location: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true  # Enables material design elements
+  assets:
+    - assets/img/logotwob.png
+    - assets/img/img1.jpg
+    - assets/img/img2.jpg
+    - assets/img/img3.jpg
+    - assets/img/img4.jpg
+    - assets/img/EyePaswword.png
+    - assets/img/close.png
+    - assets/img/check.png
+    - assets/img/back.jpg
+    - assets/img/med.jpg
+    - assets/img/deng.jpg
+    - assets/icon/alerts.jpg
+    - assets/icon/map.jpg
+    - assets/icon/report.jpg
+    - assets/icon/iconimg1.jpg
+    - assets/icon/iconimg2.jpg
+    - assets/icon/iconimg3.jpg
+    - assets/icon/iconimg4.jpg
